@@ -23,5 +23,22 @@ function add() {
                 box.appendChild(div);
                 box.removeChild(tarea);
 
+                btn.addEventListener('click', function () {
+
+                    var div2 = document.createElement('div');
+                    var tarea2 = document.createElement('div');
+                    var text = document.createElement('p');
+                    var tareaText = document.createElement('span');
+
+                    div2.classList.add('left');
+                    text.textContent = input.value;
+                    input.value = '';
+                    div2.appendChild(text);
+                    tareaText.textContent = 'Añadir tarea';
+                    tarea2.appendChild(tareaText);
+                    div2.appendChild(tarea2);
+                    box.insertBefore(div2, div);
+
+    })
 }
 
