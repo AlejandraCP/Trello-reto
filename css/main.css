@@ -1,0 +1,30 @@
+.origin-list {
+    background-color: #a56c6c;
+    width: 170px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.origin-list:hover {
+    cursor: pointer;
+}
+
+.form-style {
+    width: 200px;
+    height: auto;
+    /* background-color: #9e9999; */
+}
+
+.left {
+    float: left;
+}
+/* 
+.block {
+    display: inline-block;
+} */
+
+.div {
+    background-color: #e2e4e6;
+    width: 175px;
+}
