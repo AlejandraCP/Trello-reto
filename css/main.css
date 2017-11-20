@@ -111,7 +111,7 @@ header .icon {
    background-color: rgb(14, 150, 37);
    padding: 3px;
    border: none;
-   border-radius: 10px; 
+   border-radius: 10px;
    position: relative;
    top: 2px;
    color: #fff;
@@ -120,6 +120,7 @@ header .icon {
 .shadow {
     background-color: #c1c6ca;
 }
+
 .form-style {
     width: 200px;
     height: auto;
