@@ -1,3 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../assets/background.jpg');
+}
+
+/* Estilo de header */
+header {
+    height: 40px;
+    background-color: rgba(12, 12, 12, 0.2);
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+header .tablero {
+    background-color: rgba(12, 12, 12, 0.1);
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}
+header .user {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
+
+header .search {
+    background-color:rgba(12, 12, 12, 0.1);
+    padding: 5px 9px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}
+
+header .search i {
+    position: relative;
+    left: 180px;
+}
+
+header .logo {
+    width: 80px;
+    height: 30px;
+    margin-left: 270px;
+    margin-right: 360px;
+}
+
+header .icon {
+    background-color:rgba(12, 12, 12, 0.1);
+    padding: 5px 9px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 20px;
+    margin-left: 5px;
+    position: relative;
+    text-align: center;
+    top: -5px;
+}
+
+/* Estilo de div: main-container  */
+.main-container {
+    position: relative;
+    top: 20px;
+}
+
+.main-container #span {
+    color: #fff;
+    background-color: rgba(12, 12, 12, 0.1);
+    position: relative;
+    left: 20px;
+}
+
+.main-container #span:hover {
+    color: rgb(235, 225, 225);
+    background-color: rgba(12, 12, 12, 0.3);
+}
+
 .origin-list {
     background-color: #a56c6c;
     width: 170px;
@@ -10,19 +95,39 @@
     cursor: pointer;
 }
 
+/* Estilo para js */
+
+.style-box {
+    width: 173px;
+    height: 39px;
+    background-color: #e2e4e6;
+    border-radius: 5px;
+    margin:10px;
+    float: left;
+    padding: 10px;
+}
+
+.button {
+   background-color: rgb(14, 150, 37);
+   padding: 3px;
+   border: none;
+   border-radius: 10px; 
+   position: relative;
+   top: 2px;
+   color: #fff;
+}
+
+.shadow {
+    background-color: #c1c6ca;
+}
 .form-style {
     width: 200px;
     height: auto;
-    /* background-color: #9e9999; */
 }
 
 .left {
     float: left;
 }
-/* 
-.block {
-    display: inline-block;
-} */
 
 .div {
     background-color: #e2e4e6;

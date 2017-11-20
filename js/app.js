@@ -19,6 +19,7 @@ function add() {
                 div.appendChild(icon);
 
                 btn.classList.add('button');
+                div.setAttribute('class', 'style-box');
 
                 box.appendChild(div);
                 box.removeChild(tarea);
@@ -38,6 +39,10 @@ function add() {
                     tarea2.appendChild(tareaText);
                     div2.appendChild(tarea2);
                     box.insertBefore(div2, div);
+
+                    div2.setAttribute('class', 'style-box');
+                    tarea2.setAttribute('class','shadow');
+
 
                     tareaText.addEventListener('click', function () {
                     var input2 = document.createElement('input');
