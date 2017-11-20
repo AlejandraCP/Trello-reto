@@ -39,6 +39,29 @@ function add() {
                     div2.appendChild(tarea2);
                     box.insertBefore(div2, div);
 
+                    tareaText.addEventListener('click', function () {
+                    var input2 = document.createElement('input');
+                    var span2 = document.createElement('i');
+                    var button2 = document.createElement('button');
+
+                    span2.setAttribute('class', 'fa fa-times');
+                    button2.textContent = 'Añadir';
+
+                    tarea2.appendChild(input2);
+                    tarea2.appendChild(button2);
+                    tarea2.appendChild(span2);
+                    tarea2.removeChild(tareaText);
+
+                    button2.addEventListener('click', function () {
+
+                        var parr = document.createElement('p');
+                        parr.textContent = input2.value;
+                        input2.value = ' ';
+                        div2.insertBefore(parr, tarea2);
+                    })
+                })
+            })
+
     })
 }
 
