@@ -22,12 +22,20 @@ header .tablero {
     border-radius: 5px;
     margin-left: 10px;
     position: relative;
-    top: -5px;
+    top: -6px;
 }
+
+header .tablero:hover {
+    background-color: rgba(12, 12, 12, 0.2);
+}
+
 header .user {
     width: 32px;
     height: 32px;
     border-radius: 50px;
+    position: relative;
+    top: 4px;
+    left: 3px;
 }
 
 header .search {
@@ -38,7 +46,11 @@ header .search {
     width: 200px;
     margin-left: 10px;
     position: relative;
-    top: -5px;
+    top: -6px;
+}
+
+header .search:hover {
+    background-color: rgba(12, 12, 12, 0.2);
 }
 
 header .search i {
@@ -55,14 +67,18 @@ header .logo {
 
 header .icon {
     background-color:rgba(12, 12, 12, 0.1);
-    padding: 5px 9px;
+    padding: 7px 9px;
     border-radius: 5px;
     display: inline-block;
-    width: 20px;
+    width: 17px;
     margin-left: 5px;
     position: relative;
     text-align: center;
-    top: -5px;
+    top: -6px;
+}
+
+header .icon:hover {
+    background-color: rgba(12, 12, 12, 0.2);
 }
 
 /* Estilo de div: main-container  */
@@ -84,9 +100,8 @@ header .icon {
 }
 
 .origin-list {
-    background-color: #a56c6c;
-    width: 170px;
-    border-radius: 20px;
+    width: 250px;
+    border-radius: 5px;
     padding: 5px;
     text-align: center;
 }
@@ -98,27 +113,67 @@ header .icon {
 /* Estilo para js */
 
 .style-box {
-    width: 173px;
-    height: 39px;
+    width: 200px;
+    height: auto;
     background-color: #e2e4e6;
     border-radius: 5px;
     margin:10px;
     float: left;
     padding: 10px;
+    resize: none;
+}
+
+.style-tarea2 {
+    width: 200px;
+    height: auto;
+    background-color: #e2e4e6;
+    border-radius: 5px;
+    resize: none;
+}
+
+.style-parr {
+    background-color: rgba(12, 12, 12, 0.2);
+    margin: 5px auto;
+    border-radius: 5px;
+    padding: 3px;
+    word-wrap: break-word;
+}
+
+.textarea-size {
+    width: 180;
+    height: auto;
+    resize: none;
+}
+
+.bolt {
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-bottom: 5px;
 }
 
 .button {
-   background-color: rgb(14, 150, 37);
-   padding: 3px;
-   border: none;
-   border-radius: 10px;
-   position: relative;
-   top: 2px;
-   color: #fff;
+    background-color: rgb(14, 150, 37);
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    width: 60px;
+    height: 25px;
+    top: 2px;
+    color: #fff;
+    outline: none;
+}
+
+#icon-style {
+    position: relative;
+    top: 3px;
+    left: 5px;
 }
 
 .shadow {
-    background-color: #c1c6ca;
+    background-color: #ebeff1;
+    border-radius: 4px;
+    margin: 10px auto;
 }
 
 .form-style {
